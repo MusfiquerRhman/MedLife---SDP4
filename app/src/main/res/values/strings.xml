@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MedLife</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Medicine_Name"><u>Medicine Name</u></string>
+    <string name="Price"><u>Price</u></string>
+    <string name="manage_user">Manage User</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="admin">Admin</string>
+    <string name="title_activity_order_details_page">orderDetailsPage</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cartEdit"
+    android:background="@color/greenish">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter amount"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/changequantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/changebutton"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"/>
+
+    <Button
+        android:id="@+id/changedelete"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Order"/>
+
+
+</LinearLayout>
